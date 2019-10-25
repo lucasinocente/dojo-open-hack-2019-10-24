@@ -1,22 +1,58 @@
-.App {
+.container {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-width: 360px;
+  margin: 0 auto;
+  padding:0px 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.btn, .input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  border:1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+header {
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+header a {
+  float: left;
+  color: white;
+}
+
+.text-box {
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  height: 400px;
+}
+
+form input {
+  margin-top:10px;
+}
+
+p span {
+  display: block;
 }
